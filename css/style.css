@@ -1,0 +1,511 @@
+* {
+  margin: 0;
+}
+.services .header .about-us .testimonial .contact{
+  overflow: hidden;
+}
+.navbar-toggler{
+  background-color: white;
+  border: 1px solid white;
+}
+.anchor {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    margin-top: -90px;
+    padding-top: 40px;
+}
+.header {
+  background: #5000ca;
+  height: 90vh;
+}
+.header-content {
+padding:10% 20px 12% 0;
+}
+
+.title-temp{
+  position: relative;
+    /*padding-left: 20px;*/
+    font-size: 10px;
+    font-weight: 200;
+    color: black;
+}
+.title-2{
+  position: relative;
+    /*padding-left: 20px;*/
+    font-size: 10px;
+    font-weight: 200;
+    color: black;
+}
+ .subtitle {
+  margin-left: 88px;
+  color: white;
+  font-weight: 500;
+}
+.about-me .subtitle-2 {
+  margin-left: -100px;
+  color: black;
+  font-size: 25px;
+  font-weight: 200;
+}
+.experience {
+  font-size: 20px;
+  font-weight: 300;
+}
+.subtitle-2 {
+  margin-left: -100px;
+  color: black;
+  font-weight: 500;
+}
+.home-content{
+  margin-top: 400px;
+  margin-left: 80px;
+}
+
+.hl {
+  width: 3em;
+  display: block;
+  height: 5px;
+  background-color: black;
+  margin: 10px auto 0;
+}
+.hlw {
+  width: 3em;
+  display: block;
+  height: 5px;
+  background-color: white;
+  margin: 10px auto 0;
+}
+.navbar {
+   height: 80px; 
+  position:absolute;
+  top:0 ;
+  z-index: 80;
+  background-color: #c4d6e2;
+}
+
+li {
+  display: inline-block;
+  padding-left: 10px;
+}
+.nav-link {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  height: 30px;
+}
+.nav-link:after   {
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  background: black;
+  transition: 0.3s ease 0s;
+  width: 0;
+}
+.nav-link .active {
+  color:#0b6bd3;
+}
+
+.nav-link:hover:after {
+  color: black;
+  width: 80%;
+}
+.navbar-brand:hover, .navbar-brand:focus {
+  text-decoration: none;
+}
+.navbar-nav li a:hover {
+  color: black;
+  /*font-size:20px;*/
+}
+
+.wave {
+  width:100%;
+  overflow: hidden;
+}
+.wave-flip {
+  width:100%;
+  transform: scaleX(-1);
+  background-size: auto;
+}
+.wave-flip2 {
+  width:100%;
+  transform: scaleY(-1);
+  background-size: cover;
+}
+.about-us{
+  padding-top: -15%;
+  height:90vh;
+}
+
+.title-2 {
+  font-size: 40px;
+  //padding-left: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+.subtitle-3 {
+  padding-left: 40px;
+  color: white;
+  font-weight: 500;
+}
+.text-sz-25 {
+  font-size:25px;
+  text-align: justify;
+  font-weight: 50;
+}
+.services {
+  margin-top: -5%;
+  height: 100vh;
+  overflow: hidden;
+}
+.bg-img {
+  height: 120vh;
+  background-image: linear-gradient(
+    rgba(144, 144, 147 ,0.4), rgba(144, 144, 147, 0.4)),
+    url('../img/img1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.title {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  color:white;
+}
+
+.text-center {
+    text-align: center!important;
+}
+.services-title {
+  font-size: 30px;
+  font-weight: 40px;
+  color:white;
+}
+
+.para {
+  color:white;
+  font-size:16px;
+  font-weight: 20px;
+}
+.icon {
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color:white;
+}
+
+.team {
+  height: 60vh;
+}
+.team .des {
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+}
+.team img {
+   height:200px;
+   width:200px;
+   border-radius:20%;
+}
+.team .img-box:hover img{
+  opacity: 0.1;
+}
+.team .img-box:hover {
+    background-color: rgba(80, 0, 202 ,1);
+    border-radius:20%;
+}
+
+/*  change some thing */
+.team .fa {
+  height: 25px;
+  width: 25px;
+  color: #007bff !important;
+  background: #fff;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.img-box {
+  margin-left: 30px;
+  height: 200px;
+  width: 200px;
+}
+.img-box ul {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  top:50%;
+  left: 44%;
+  transform: translateX(-50%);
+  opacity: 0;
+}
+.img-box ul li{
+  padding: 2px;
+  display: inline-block;
+}
+
+.img-box:hover ul {
+  opacity: 1;
+}
+.img-box ul, .img-box ul li {
+  transition: 0.5s;
+}
+.name {
+  font-family: sans-serif;
+  font-size:35px;
+  font-weight: 400;
+}
+.designation {
+  font-size:18px;
+  font-weight: 200;
+  margin-top: -20px;
+}
+.portfolio {
+  height:70vh;
+}
+
+.bg-img2 {
+  background-image: linear-gradient(
+    rgba(80, 0, 202 ,0.6), rgba(80, 0, 202, 0.6)),
+    url('../img/img1.jpg');
+    background-attachment: fixed;
+    /* background-size: cover; */
+    background-size: cover;
+}
+.testimonial {
+  height: 80vh;
+}
+.contact-us{
+  margin-top: 30px;
+  margin-bottom: -20px;
+  height:30vh;
+  overflow:hidden;
+  background-color: #c4d6e2;
+}
+
+footer {
+  background-color: #90adc1;
+  color:white;
+  height:12vh;
+}
+footer h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 100;
+  font-size: 27px;
+}
+footer p{
+  margin-top: 100px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 100;
+  font-size: 20px;
+}
+.border {
+  border-bottom: 12px solid white;
+}
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+
+
+}
+@media only screen and (max-width: 1080px) {
+  .title-2 {
+    font-size: 25px;
+  }
+  .title{
+    font-size: 50px;
+  }
+  .img-banner {
+  }
+  .wave {
+    height:100%;
+    width:100%;
+  }
+  .wave-bottom {
+    margin-bottom:-2px;
+  }
+  .wave-up {
+    margin-top:-15px;
+  }
+  .bg-img {
+      width:100%;
+      vertical-align: center;
+  }
+  .header {
+    height: 40vh;
+  }
+  .team {
+    height: 80vh;
+  }
+  .contact-us .img-contact{
+    margin-top:50px;
+    margin-left:-50px;
+    height:250px;width:300px;
+  }
+  .contact-form input {
+    margin-left: 50px;
+  }
+  .contact-form textarea {
+    margin-left: 50px;
+  }
+  .nav-link:hover:after {
+    color: white;
+    /*width: 20%;*/
+  }
+
+  .name .designation {
+    margin-left: 40px;
+    text-align: center;
+  }
+  .para {
+    font-size: 20px;
+  }
+  .services {
+    height: 90vh;
+  }
+  .about-us{
+    height: 120vh;
+  }
+  .text-sz-25 {
+    font-size: 30px;
+  }
+}
+/* Media Queries: Tabled Portrait */
+@media only screen and (max-width: 720px) {
+  .title-2 {
+    font-size: 32px;
+  }
+  .title{
+    font-size: 32px;
+  }
+  .header .title {
+    text-align: justify;
+    font-size: 30px;
+  }
+  .header .subtitle{
+    text-align: justify;
+    font-size: 25px;
+  }
+  .header-content .img-banner {
+    margin-top: 70px;
+    margin-left: 30px;
+    height:270px;
+    width:270px;
+  }
+  .img-banner {
+    margin-left: 10px;
+    height:300px;
+    width:320px;
+  }
+  .about-us{
+    height: 100vh;
+  }
+  .subtitle-2 {
+    font-size: 27px;
+  }
+  .text-sz-25 {
+    font-size: 20px;
+  }
+  .services {
+    height: 250vh;
+  }
+  .services-title {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .services .para {
+    font-size:18px;
+  }
+
+  .wave {
+    height:100%;
+    width:100%;
+  }
+  .wave-bottom {
+    margin-bottom:-2px;
+  }
+  .wave-up {
+    margin-top:-15px;
+  }
+  .bg-img {
+      width:100%;
+      vertical-align: center;
+  }
+  .header {
+    height: 120vh;
+  }
+  .contact-us .img-contact{
+    margin-top:50px;
+    margin-left:-50px;
+    height:250px;
+    width:300px;
+  }
+  .contact-form input {
+    margin-left: 50px;
+  }
+  .contact-form textarea {
+    margin-left: 50px;
+  }
+  .nav-link:hover:after {
+    color: white;
+    /*width: 20%;*/
+  }
+  .team {
+    height: 220vh;
+  }
+  .contact-us {
+    height:130vh;
+  }
+  .name .designation {
+    margin-left: 40px;
+    text-align: center;
+  }
+  .para {
+    font-size: 20px;
+  }
+
+
+}
+/* box-shadow: 0 4px 6px -5px hsl(0, 0%, 40%), inset 0px 4px 6px -5px black; */
+
+.about-me {
+  margin-top: 40px;
+}
+
+.img-circle  {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+}
+
+.card {
+  margin-left:  20px;
+  width: 340px;
+}
+
+.portfolio-contain {
+  margin-bottom:  10px;
+}
+
+.logo {
+  margin-top:  10px;
+  margin-left: -100px;
+  /*margin-left: 90px ;*/
+  /*width: 50%;*/
+}
+
+.img-logo {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px; 
+}
